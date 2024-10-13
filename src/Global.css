@@ -1,91 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+
+html {
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-    width: 13px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px transparent; 
-    border-radius: 10px;
-    background-color: transparent;
-  }
-   
-  ::-webkit-scrollbar-thumb {
-    background: #fcedf2; 
-    border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #ffc7da; 
-  }
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fcedf2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc7da;
+}
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 300,
-  'GRAD' 0,
-  'opsz' 24
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
 }
 
 /* NAVBAR CSS SECTION START FROM HERE */
-  .LogoDiv a img{
-    width: 35px;
-    height: auto;
-  }
-  .LogoDiv a{
-    font-size: 26px;
-    font-weight: 600;
-    display: flex;
-    text-decoration: none;
-    align-items: baseline;
-    color: #419693;
-  }
-  .navbarSection{
-    background-color: #fff;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    border: none;
-    border-bottom: .1px solid #419693;
-  }
-  .navMenuList a:hover{
-    color: #419693;
-  }
-  .navMenuList a{
-    font-size: 16px;
-    font-weight: 500;
-    color: #000;
-    transition: .3s ease;
-    text-decoration: none;
-  }
-  .navMenuList button:hover{
-    background-color: #419693;
-    color: #fff;
-  }
-  .navMenuList button {
-    border: .1px solid #419693;
-    background-color: transparent;
-    border-radius: 20px;
-    transition: .3s all ease;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 7px 25px;
-    gap: 5px;
+.LogoDiv a img {
+  width: 35px;
+  height: auto;
 }
-  .navMenuList{
+
+.LogoDiv a {
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  text-decoration: none;
+  align-items: baseline;
+  color: #419693;
+}
+
+.navbarSection {
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: .1px solid #419693;
+}
+
+.navMenuList a:hover {
+  color: #419693;
+}
+
+.navMenuList a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  transition: .3s ease;
+  text-decoration: none;
+}
+
+.navMenuList button:hover {
+  background-color: #419693;
+  color: #fff;
+}
+
+.navMenuList button {
+  border: .1px solid #419693;
+  background-color: transparent;
+  border-radius: 20px;
+  transition: .3s all ease;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 25px;
+  gap: 5px;
+}
+
+.navMenuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* NAVBAR CSS SECTION END FROM HERE */
+
+/* HOME SECTION START FROM HERE */
+.homeSection{
+  height: 200px;
+    background-image: url('./Image/DocMed-home-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-  }
-/* NAVBAR CSS SECTION END FROM HERE */
+    justify-content: center;
+}
+.homeHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.homeHeading {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.homeInputFeald input {
+  width: 490px;
+  height: 45px;
+  padding-left: 15px;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+}
+
+.homeInputFeald {
+  width: 550px;
+  border-radius: 15px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.Home-input-container lord-icon {
+  color: #162c2a;
+  cursor: pointer;
+}
+/* HOME SECTION END FROM HERE */
