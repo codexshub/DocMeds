@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DocMeds/static/css/main.eecb4415.css",
-    "main.js": "/DocMeds/static/js/main.f8511dc2.js",
+    "main.css": "/DocMeds/static/css/main.015b7544.css",
+    "main.js": "/DocMeds/static/js/main.9f9bd731.js",
     "static/media/img-1.jpg": "/DocMeds/static/media/img-1.ac2f8858a5efde95c1d5.jpg",
     "static/media/img-4.jpg": "/DocMeds/static/media/img-4.790b9dbc198e84a48191.jpg",
     "static/media/img-3.jpg": "/DocMeds/static/media/img-3.f5b790d0ba75eea7ccfd.jpg",
@@ -43,11 +43,11 @@
     "static/media/healthImg-7.webp": "/DocMeds/static/media/healthImg-7.93511d6165d73bf1b851.webp",
     "static/media/healthImg-8.webp": "/DocMeds/static/media/healthImg-8.c0c5f5a6775aa5bc255d.webp",
     "static/media/healthImg-2.webp": "/DocMeds/static/media/healthImg-2.a2375dcf0c35602889ec.webp",
-    "main.eecb4415.css.map": "/DocMeds/static/css/main.eecb4415.css.map",
-    "main.f8511dc2.js.map": "/DocMeds/static/js/main.f8511dc2.js.map"
+    "main.015b7544.css.map": "/DocMeds/static/css/main.015b7544.css.map",
+    "main.9f9bd731.js.map": "/DocMeds/static/js/main.9f9bd731.js.map"
   },
   "entrypoints": [
-    "static/css/main.eecb4415.css",
-    "static/js/main.f8511dc2.js"
+    "static/css/main.015b7544.css",
+    "static/js/main.9f9bd731.js"
   ]
 }
